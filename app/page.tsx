@@ -30,7 +30,7 @@ export default function Page() {
                 </div>
               </div>
               <span className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
-                Solflare
+                
               </span>
             </div>
           </div>
@@ -137,9 +137,9 @@ export default function Page() {
                       <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
                     </svg>
                   </div>
-                  <span className="ml-2 text-lg font-semibold">Solflare</span>
+                  <span className="ml-2 text-lg font-semibold"></span>
                 </div>
-                <span className="text-xl">✨ Connect & Unwrap Gift ✨</span>
+                <span className="text-xl"></span>
               </div>
             </Button>
             
@@ -160,4 +160,4 @@ export default function Page() {
       <Modals isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </main>
   )
-    }
+          }
